@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap Boilerplate</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style>
+		/*Custom CSS here*/
+	</style>
+</head>
+<body>
+	<p id="someText"></p>
+	<!-- Any HTML Goes Here -->
+		
+	<!-- Any HTML Ends Here -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+
+    // //Making an object and passing a value to an object
+
+    // //making an object
+    // 	var numbers = {
+    // 		numOne: 1,
+    // 		numTwo: 2,
+    // 		numThree: 3
+    // 	};
+
+    // //this is a function declaration (which is adding a property to the object)
+    // 	function addProperty(){
+    // 		var aNumber = 4;
+    // 		numbers.addNum = aNumber;
+    // 	}
+
+    // //calling the function (into action)
+    // 	addProperty();
+
+    // //the console (which is logging the object for inspection)
+    // 	console.log(numbers);
+
+
+    // numbers = {numOne: 1, numTwo: 2, numThree: 3}
+
+
+	//     //Arrays
+	//     	var anArray = [1, 2, 3, 4, 5];
+
+	// //rememeber arrays are indexed starting from 0. Bellow is the array being called by the console.log
+	//     	console.log(anArray[0]);
+
+
+	// //Operators
+	// var someMath = 0.5 * (13 + 1);
+	// alert(someMath);
+
+	// //Arguments
+	// var nine = 9;
+	// var ten = 10;
+	// function mathIt(numberA, numberB){
+	// 	//this is inside the function (the processing and actions occur in here)
+	// 	var neg = numberA - numberB;
+	// 	var add = numberA + numberB;
+	// 	//return it to call which ever var you want it to do (eg. either neg or add)
+	// 	return add
+	// }
+
+	// alert(mathIt(nine, ten));
+
+
+	// //Decision Makers
+
+	// //if/else is logic in its simplest form
+	// var theNumber = 100;
+
+	// //equalls signs: 1 equals sign (=) means assigning the value to something (like above on line 75). 2 equals signs (==) means we are checking two things are the same. 3 equals signs (===) means it is a strict equals MUST be the same-very powerful. 
+	// function checkingIt(checker){
+	// 	if(theNumber === 100) {
+	// 		alert('The number is 100');
+
+	// 	} else {
+	// 		alert('The number is NOT 100');
+	// 	}
+	// }
+
+	// checkingIt(100);
+
+
+	// //using jquery
+	// var theNumber = 4; 
+
+	// 	if(theNumber > 9) {
+	// 		var para = document.getElementById('someText');
+	// 		$('p').append('The number is greater than 9');
+			
+
+	// 	} else {
+	// 		var para = document.getElementById('someText');
+	// 		$('p').append('The number is smaller than 9');
+			
+	// 	}
+
+
+		// //vanilla js
+		// var theNumber = 120; 
+
+		// if(theNumber > 9 && theNumber < 100) {
+		// 	//bellow we grab the paragraph using the id.
+		// 	var para = document.getElementById('someText');
+		// 	//here we use the text content property to add content to the DOM node(main page)
+		// 	para.textContent = 'The number is greater than 9 and less than 100'	
+
+		// } else {
+		// 	var para = document.getElementById('someText');
+		// 	para.textContent = 'The number is NOT 9 or 100'
+			
+		// }
+
+
+	// //Loops (possibly from Duckett)
+	// //an array of scores
+	// var scores = [10, 20, 30];
+
+	// //items in the array (3 in this case)
+	// var arrayLength = scores.length;
+
+	// //the current round of the loop
+	// var roundNumber = 0;
+
+	// //declared an empty variable
+	// var msg = '';
+
+	// //using a lop to loop through an array  and each time we add data/text to the msg variable.
+	// for (var i = 0; i < arrayLength; i++) {
+
+	// 	//add 1 to the current round
+	// 	roundNumber = (i + 1);
+
+	// 	//write the current round to message
+	// 	//'+=' adds more content/data to the msg variable
+	// 	msg += 'Round ' + roundNumber +  ': ';
+
+	// 	//get score from the scores array
+	// 	//referencing the i variable
+	// 	//which reference and uses the array 'scores'
+	// 	msg += scores[i] + '<br />';
+	// }
+
+	// document.getElementById('someText').innerHTML = msg;
+
+
+
+    	
+
+    </script>
+</body>
+</html>
